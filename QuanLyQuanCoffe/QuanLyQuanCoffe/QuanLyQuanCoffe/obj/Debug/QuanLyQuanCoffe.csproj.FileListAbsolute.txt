@@ -1,0 +1,31 @@
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\bin\Debug\QuanLyQuanCoffe.exe.config
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\bin\Debug\QuanLyQuanCoffe.exe
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\bin\Debug\QuanLyQuanCoffe.pdb
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\bin\Debug\Guna.UI2.dll
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.AssemblyReference.cache
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.fLogin.resources
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.Properties.Resources.resources
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.GenerateResource.cache
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.CoreCompileInputs.cache
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.CopyComplete
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.exe
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.pdb
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.fManageAdmin.resources
+D:\DA C#\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.fOrder.resources
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\bin\Debug\QuanLyQuanCoffe.exe.config
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\bin\Debug\QuanLyQuanCoffe.exe
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\bin\Debug\QuanLyQuanCoffe.pdb
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\bin\Debug\Guna.UI2.dll
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.AssemblyReference.cache
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.SuggestedBindingRedirects.cache
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.fLogin.resources
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.fManageAdmin.resources
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.fOrder.resources
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.Properties.Resources.resources
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.GenerateResource.cache
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.CoreCompileInputs.cache
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.csproj.CopyComplete
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.exe
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.pdb
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.UserControls.fDetail.resources
+E:\nuce\Năm 3\HK2-BLOCK2-NĂM 3\Đồ án lập trình hướng đối tượng\QuanLyQuanCoffe\QuanLyQuanCoffe\QuanLyQuanCoffe\obj\Debug\QuanLyQuanCoffe.UserControls.fUser.resources
