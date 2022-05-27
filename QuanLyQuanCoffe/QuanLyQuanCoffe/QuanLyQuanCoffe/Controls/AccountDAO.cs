@@ -40,7 +40,20 @@ namespace QuanLyQuanCoffe.Controls
 
             return null;
         }
+        public string GetNameFromID(string ID)
+        {
+            string querry = "Select * From Employee Where idEmployee=\'" + ID + "\'";
+            DataTable result = DataProvide.Instace.ExcuteQuerry(querry);
 
+            return result.Rows[0]["Name"].ToString();
+        }
+         
+
+        public void ChangePassword(String username, String newpass)
+        {
+            string query = "exec USP_ChangePassword @username , @newpass ";
+            DataProvide.Instace.ExcuteNonQuerry(query, new object[] { username, newpass });
+        }
 
     }
 }

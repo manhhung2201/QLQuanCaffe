@@ -1,4 +1,4 @@
-﻿using QuanLyQuanCoffe.UserControls;
+﻿using QuanLyQuanCoffe.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,37 +23,33 @@ namespace QuanLyQuanCoffe
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            fUser1.BringToFront();
-        }
-
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            fOrder f =new fOrder();
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void guna2Button4_Click_1(object sender, EventArgs e)
+        {
+            fOrderAdmin f = new fOrderAdmin();
             this.Hide();
             f.ShowDialog();
             this.Show();
-
-
-        }
-
-        private void guna2Button6_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-            //fLogin f1=new fLogin();
-            //f1.Show();
-            
         }
     }
 }

@@ -95,10 +95,10 @@ create table Promotion
 --------
 create table Bill
 (	id int primary key,
+	time datetime NOT NULL,
 	idEmployee nvarchar(50) NOT NULL,
-	DateCheckIn Date not null default getdate(),
-	DateCheckOut Date,
 	idPromotion nvarchar(50) ,
+	TotalPrice int NOT NULL,
 	
 	constraint FK_9 foreign key (idEmployee) references Employee(idEmployee),
 	constraint FK_8 foreign key (idPromotion) references Promotion(idPromotion)
@@ -163,6 +163,58 @@ BEGIN
 END
 GO
 execute USP_Login 'Admin','@admin@';
+------
+Create proc USP_ChangePassword
+@username varchar(50) , @newpass varchar(50)
+as
+Begin
+	UPDATE Account
+   SET 
+      password = @newpass
+      
+ WHERE username = @username
+End
+GO
+--------
+Create proc USP_InsertBill
+	@idEmp nvarchar(50), 
+	@idPromo nvarchar(50), 
+	@totalPrice int
+as
+begin
+	Insert into  Bill
+	(
+		time,
+		idEmployee,
+		idPromotion,
+		TotalPrice
+	)
+	Values
+	(
+		GETDATE(),
+		@idEmp,
+		@idPromo,
+		@totalPrice
+	)
+end
+GO
+drop proc USP_InsertBill;
+---------
+Create proc USP_InsertBillInfo
+	@idBill int, @idFood int, @idCount int
+as
+Begin
+	INSERT INTO BillInfo
+           (idBill
+           ,idFood
+           ,count)
+     VALUES
+           (@idBill
+           ,@idFood
+           ,@idCount)
+End
+GO
+
 
 
 	

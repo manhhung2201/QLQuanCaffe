@@ -12,7 +12,7 @@ namespace QuanLyQuanCoffe.Controls
     {
         private static DataProvide instace; // tao 1 doi tuong static DataProvide, khi thong qua instance lay DL ra la duy nhat
 
-        private string connectionSTR = "Data Source=I-AM-HUNGIT22\\SQLEXPRESS;Initial Catalog=QuanLyQuanCoffe;Integrated Security=True";
+        private string connectionSTR = "Data Source=DESKTOP-QK117H5\\KIMTT514;Initial Catalog=QuanLyQuanCoffe;Integrated Security=True";
         public static DataProvide Instace
         {
             get { if (instace == null) instace = new DataProvide(); return instace; }

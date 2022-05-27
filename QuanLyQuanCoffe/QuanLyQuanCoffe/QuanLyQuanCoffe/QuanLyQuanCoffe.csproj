@@ -50,7 +50,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controls\AccountDAO.cs" />
+    <Compile Include="Controls\BillDAO.cs" />
+    <Compile Include="Controls\BillInfoDAO.cs" />
+    <Compile Include="Controls\CategoryDAO.cs" />
     <Compile Include="Controls\DataProvide.cs" />
+    <Compile Include="Controls\FoodDAO.cs" />
+    <Compile Include="Controls\PromotionDAO.cs" />
+    <Compile Include="fChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChangePassword.Designer.cs">
+      <DependentUpon>fChangePassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,36 +74,62 @@
     <Compile Include="fManageAdmin.Designer.cs">
       <DependentUpon>fManageAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fOder.cs">
+    <Compile Include="fOrderAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fOder.Designer.cs">
-      <DependentUpon>fOder.cs</DependentUpon>
+    <Compile Include="fOrderAdmin.Designer.cs">
+      <DependentUpon>fOrderAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fOrder.cs" />
+    <Compile Include="fOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrders.Designer.cs">
+      <DependentUpon>fOrders.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\Bill.cs" />
+    <Compile Include="Models\BillInfo.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Food.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\Promotion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControls\fDetail.cs">
+    <Compile Include="user controls\fDetail.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\fDetail.Designer.cs">
+    <Compile Include="user controls\fDetail.Designer.cs">
       <DependentUpon>fDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\fUser.cs">
+    <Compile Include="user controls\Orderf\ItemOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\fUser.Designer.cs">
-      <DependentUpon>fUser.cs</DependentUpon>
+    <Compile Include="user controls\Orderf\ItemOrder.Designer.cs">
+      <DependentUpon>ItemOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="user controls\Orderf\ItemStandbyOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="user controls\Orderf\ItemStandbyOrder.Designer.cs">
+      <DependentUpon>ItemStandbyOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Employee Side\fProcessOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Employee Side\fProcessOrder.Designer.cs">
+      <DependentUpon>fProcessOrder.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fChangePassword.resx">
+      <DependentUpon>fChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fManageAdmin.resx">
       <DependentUpon>fManageAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fOder.resx">
-      <DependentUpon>fOder.cs</DependentUpon>
+    <EmbeddedResource Include="fOrders.resx">
+      <DependentUpon>fOrders.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,11 +140,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControls\fDetail.resx">
+    <EmbeddedResource Include="user controls\fDetail.resx">
       <DependentUpon>fDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\fUser.resx">
-      <DependentUpon>fUser.cs</DependentUpon>
+    <EmbeddedResource Include="user controls\Orderf\ItemOrder.resx">
+      <DependentUpon>ItemOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user controls\Orderf\ItemStandbyOrder.resx">
+      <DependentUpon>ItemStandbyOrder.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -124,7 +164,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="View\" />
+    <Folder Include="View\Admin Side\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Asset\Resources\FoodIMG\b_crepe.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\b_kimchi.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\b_socola.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\cafe_den.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\cafe_sua.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\ht_nhai.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\ht_xanh.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\latte.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\mocha.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\ts_chantrau.jpg" />
+    <Content Include="Asset\Resources\FoodIMG\ts_matcha.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

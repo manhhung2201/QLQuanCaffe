@@ -62,7 +62,7 @@ namespace QuanLyQuanCoffe
                 Account session = AccountDAO.Instance.GetAccountByUserName(UserName);
                 if (session.Type.Equals("staff"))
                 {
-                    fOrder f = new fOrder(session);
+                    fOrders f = new fOrders(session);
                     this.Hide();
                     f.ShowDialog();
                     this.Show();
